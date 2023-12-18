@@ -85,7 +85,7 @@ type ApplicationTurnState = TurnState<ConversationState>;
 
 // Create Assistant Planner
 const planner = new AssistantsPlanner({
-    apiKey: process.env.OPENAI_KEY!,
+    apiKey: process.env.OPENAI_API_KEY!,
     assistant_id: process.env.ASSISTANT_ID!
 });
 
